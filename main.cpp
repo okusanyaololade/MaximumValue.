@@ -37,14 +37,15 @@ public:
 };
 int main(){
     
-    double n1, n2, n3;
+     double n1, n2, n3;
     cout<<"Input you first Value: ";
     cin>>n1;
     cout<<"Input your Second Value: ";
     cin>> n2;
     cout<<"Input your Third Value: ";
     cin>>n3;
-    
+  
+    //calling class in the main.
     MaximumValue calcMaximum;
     calcMaximum.getMaximumValue(n1 , n2, n3);
     
