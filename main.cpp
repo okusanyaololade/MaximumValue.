@@ -36,6 +36,7 @@ public:
     
 };
 int main(){
+    
     double n1, n2, n3;
     cout<<"Input you first Value: ";
     cin>>n1;
